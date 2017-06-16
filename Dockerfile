@@ -5,7 +5,7 @@ FROM andrefernandes/docker-java7:latest
 MAINTAINER Andre Fernandes
 
 ENV TOMCAT_MAJOR_VERSION 7
-ENV TOMCAT_MINOR_VERSION 7.0.55
+ENV TOMCAT_MINOR_VERSION 7.0.78
 
 RUN wget http://ftp.unicamp.br/pub/apache/tomcat/tomcat-$TOMCAT_MAJOR_VERSION/v$TOMCAT_MINOR_VERSION/bin/apache-tomcat-$TOMCAT_MINOR_VERSION.tar.gz -q && \
     tar -xzf apache-tomcat-$TOMCAT_MINOR_VERSION.tar.gz && \
